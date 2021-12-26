@@ -3,12 +3,21 @@
   color: $dark-blue-text;
   margin-top: -15rem;
   padding-top: 15rem;
+  .Portfolio {
+    margin: auto;
+    width: 50vw;
+    height: 38.4vw;
+    @include respond(phone) {
+      width: 90vw;
+      height: 69vw;
+    }
+  }
 
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
   }
-
+  
   .project-wrapper {
     margin-bottom: 15rem;
 
