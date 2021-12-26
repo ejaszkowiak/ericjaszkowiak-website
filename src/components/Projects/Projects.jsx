@@ -111,7 +111,7 @@ const Projects = () => {
             );
           })}
           <h1>My Engineering Portfolio</h1>
-          <Fade>
+          <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
             <iframe
               title="portfolio"
               className="Portfolio"
